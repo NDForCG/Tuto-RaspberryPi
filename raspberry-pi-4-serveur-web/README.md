@@ -4,6 +4,12 @@ Les fichiers et les commandes de la vidéo, à copier. Il te faut un Raspberry P
 
 **Niveau de validation** : la page, le fichier de configuration, les commandes `nginx -t`, `ln -s`, `rm` et le rechargement ont été essayés avec Nginx 1.24 sous Ubuntu 24.04 (message d'erreur du point-virgule oublié compris). Le tutoriel **n'a pas été essayé sur un Raspberry Pi** (Raspberry Pi OS Lite, Nginx 1.22). Les adresses (192.168.1.27, 192.168.1.42), la date et les extraits de journal sont des exemples : chez toi, ils seront différents.
 
+## En images (captures de la vidéo)
+
+![La page par défaut de Nginx](images/welcome.png)
+![Le fichier de configuration du site](images/configuration.png)
+![La page sur le téléphone](images/telephone.png)
+
 ## 1. Installer Nginx (sur le Pi)
 
 ```bash
